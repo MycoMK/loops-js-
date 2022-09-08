@@ -1,4 +1,4 @@
-console.log('connected');
+// console.log('connected');
   
 // for loop
 
@@ -27,4 +27,25 @@ for ( item of items) {
     
 }
  
- 
+
+let count = 0;
+while(count < 10){
+    count++
+    console.log(count)
+}
+
+// const Secret = 'BabyHippo'
+
+// let guessi = prompt('Enter the secret code');
+// while(guessi !== Secret){
+//     guessi = prompt('Enter the secret code')
+// }
+// console.log('CONGRAT YOU THE SECRET')
+
+// game
+ const password = 'Bodi'
+ let guess = prompt('Enter the correct code');
+ while(guess !== password){
+    guess = prompt('try again with the right passcode')
+ }
+console.log('You gat it rigth')
