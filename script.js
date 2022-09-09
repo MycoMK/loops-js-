@@ -2,37 +2,37 @@
   
 // for loop
 
-for (let i = 0; i < 5; i++) {
-   console.log('Package' + i);
-   if(i ===3) break;
+// for (let i = 0; i < 5; i++) {
+//    console.log('Package' + i);
+//    if(i ===3) break;
     
-}
+// }
 
-const names = ['John','Peter','Jane','Cassy']
-for (let i = 0; i < names.length; i++) {
-    console.log(names[i]);
+// const names = ['John','Peter','Jane','Cassy']
+// for (let i = 0; i < names.length; i++) {
+//     console.log(names[i]);
     
-}
+// }
 
 
-for (let i = 5; i > 0; i--) {
-    console.log('car' + i);
+// for (let i = 5; i > 0; i--) {
+//     console.log('car' + i);
      
- }
+//  }
 
-//  for of loop
-const items = ['books','Pens','Bags','Pencils']
-for ( item of items) {
-    console.log(items);
+// //  for of loop
+// const items = ['books','Pens','Bags','Pencils']
+// for ( item of items) {
+//     console.log(items);
     
-}
+// }
  
 
-let count = 0;
-while(count < 10){
-    count++
-    console.log(count)
-}
+// let count = 0;
+// while(count < 10){
+//     count++
+//     console.log(count)
+// }
 
 // const Secret = 'BabyHippo'
 
@@ -43,9 +43,16 @@ while(count < 10){
 // console.log('CONGRAT YOU THE SECRET')
 
 // game
- const password = 'Bodi'
- let guess = prompt('Enter the correct code');
- while(guess !== password){
-    guess = prompt('try again with the right passcode')
- }
-console.log('You gat it rigth')
+//  const password = 'Bodi'
+//  let guess = prompt('Enter the correct code');
+//  while(guess !== password){
+//     guess = prompt('try again with the right passcode')
+//  }
+// console.log('You gat it rigth')
+
+const password = 'DoTi';
+let guess = prompt('Enter passcode');
+while(guess != password){
+    prompt('Try one more time')
+}
+console.log('You gat it man')
